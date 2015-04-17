@@ -24,3 +24,7 @@ function h() {
 }
 
 setInterval(function(){ h(); }, 1);
+
+
+//oneliner for especially visible class
+setInterval(function(){ $('#box:visible span').trigger('click'); }, 3);
